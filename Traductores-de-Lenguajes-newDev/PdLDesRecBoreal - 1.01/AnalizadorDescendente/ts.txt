@@ -1,0 +1,187 @@
+TABLA LOCAL #2:
+*LEXEMA: 'KK'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 0
+	+ Param: 0
+*LEXEMA: 'S1'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 1
+	+ Param: 0
+*LEXEMA: '_t0'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 2
+	+ Param: 0
+----------------------------------------
+TABLA LOCAL #3:
+*LEXEMA: 'S'
+	Atributos:
+	+ Tipo: 'cadena'
+	+ Despl: 0
+	+ Param: 0
+*LEXEMA: 'RR'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 64
+	+ Param: 1
+*LEXEMA: 'III'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 65
+	+ Param: 0
+*LEXEMA: 'SS'
+	Atributos:
+	+ Tipo: 'cadena'
+	+ Despl: 66
+	+ Param: 0
+*LEXEMA: '_t1'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 130
+	+ Param: 0
+*LEXEMA: '_t2'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 131
+	+ Param: 0
+----------------------------------------
+TABLA LOCAL #4:
+*LEXEMA: 'NNN'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 0
+	+ Param: 0
+*LEXEMA: 'RR'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 1
+	+ Param: 1
+*LEXEMA: 'RESUL'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 2
+	+ Param: 0
+*LEXEMA: '_t3'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 3
+	+ Param: 0
+*LEXEMA: '_t4'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 4
+	+ Param: 0
+*LEXEMA: '_t5'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 5
+	+ Param: 0
+*LEXEMA: '_t6'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 6
+	+ Param: 0
+----------------------------------------
+TABLA LOCAL #5:
+*LEXEMA: 'SSS'
+	Atributos:
+	+ Tipo: 'cadena'
+	+ Despl: 0
+	+ Param: 0
+*LEXEMA: '_t7'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 64
+	+ Param: 0
+----------------------------------------
+TABLA LOCAL #6:
+*LEXEMA: 'CINCO'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 0
+	+ Param: 0
+*LEXEMA: '_t8'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 1
+	+ Param: 0
+----------------------------------------
+TABLA PRINCIPAL #1:
+*LEXEMA: 'S1'
+	Atributos:
+	+ Tipo: 'cadena'
+	+ Despl: 0
+	+ Param: 0
+*LEXEMA: 'KK'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 64
+	+ Param: 0
+*LEXEMA: 'PP'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 65
+	+ Param: 0
+*LEXEMA: 'JJ'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 66
+	+ Param: 0
+*LEXEMA: 'CERO'
+	Atributos:
+	+ Tipo: 'entero'
+	+ Despl: 67
+	+ Param: 0
+*LEXEMA: 'BB'
+	Atributos:
+	+ Tipo: 'logico'
+	+ Despl: 68
+	+ Param: 0
+*LEXEMA: 'IMPRIME'
+	Atributos:
+	+ Tipo: 'procedimiento'
+	+ numParam: 2
+	+ TipoParam0: 'entero'
+	+ TipoParam1: 'entero'
+	+ ModoParam0: 'valor'
+	+ ModoParam1: 'valor'
+	+ TipoRetorno: 'vacío'
+	+ EtiqFuncion: 'Etiqueta0'
+*LEXEMA: 'SENT'
+	Atributos:
+	+ Tipo: 'procedimiento'
+	+ numParam: 2
+	+ TipoParam0: 'cadena'
+	+ TipoParam1: 'entero'
+	+ ModoParam0: 'valor'
+	+ ModoParam1: 'referencia'
+	+ TipoRetorno: 'vacío'
+	+ EtiqFuncion: 'Etiqueta1'
+*LEXEMA: 'RECURSIVO'
+	Atributos:
+	+ Tipo: 'procedimiento'
+	+ numParam: 2
+	+ TipoParam0: 'entero'
+	+ TipoParam1: 'entero'
+	+ ModoParam0: 'valor'
+	+ ModoParam1: 'referencia'
+	+ TipoRetorno: 'vacío'
+	+ EtiqFuncion: 'Etiqueta2'
+*LEXEMA: 'OPERADOR'
+	Atributos:
+	+ Tipo: 'procedimiento'
+	+ numParam: 0
+	+ TipoParam: '-'
+	+ ModoParam: '-'
+	+ TipoRetorno: 'vacío'
+	+ EtiqFuncion: 'Etiqueta3'
+*LEXEMA: 'MAIN'
+	Atributos:
+	+ Tipo: 'procedimiento'
+	+ numParam: 0
+	+ TipoParam: '-'
+	+ ModoParam: '-'
+	+ TipoRetorno: 'vacío'
+	+ EtiqFuncion: 'main'

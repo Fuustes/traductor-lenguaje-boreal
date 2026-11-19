@@ -1,0 +1,37 @@
+procedure holaMundo;
+var s : string;
+begin
+	s := 'holamundoproc';
+    writeln(s);
+    return;	
+end;	
+
+PROGRAM pruebaSCondicionales;
+
+var x : integer;
+	y : integer;
+	n : integer;
+	b : boolean;
+	s : string;
+
+begin
+	x := 4;
+	y := 3;
+	b := not (x > 2);
+	If x > 1 Then s:= 'x mayor que 1';
+	if (b) then write('hola mundo');
+	
+	if b then
+	begin
+  		if(x > y) then
+		begin
+			writeln (x);
+			write(y);
+		end;
+		write('Por aqui');
+	end;
+	else 
+	begin
+		holaMundo;
+	end;
+end;

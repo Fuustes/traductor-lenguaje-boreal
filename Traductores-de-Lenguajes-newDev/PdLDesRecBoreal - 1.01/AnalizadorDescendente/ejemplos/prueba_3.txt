@@ -1,0 +1,39 @@
+var s1 : string;
+
+PROCEDURE procedimientoGeneral (x: integer; f: integer; b: Boolean);
+var v : Integer;
+    s1 : string;
+begin
+    writeln('Entra en proc');
+    v := 3;
+    
+    if b
+    then
+        begin
+        writeln('Estoy en proc correcto');
+        s1 := 'OK';
+        end;
+    else
+        begin
+        writeln('Estoy en proc incorrecto');
+        s1 := 'KO';
+        end;
+    v := v + 4 + f;
+    writeln(v);
+    writeln(s1);
+    writeln('Sale de proc');
+end;
+
+PROGRAM programaPrincipal;
+var s2 : string;
+    x : Integer;
+    b : boolean;
+
+begin
+    x := (7+1) + 4;
+    b := 4 > 6;
+    s1 := 'hola';
+    writeln('pre: ', s1);
+    procedimientoGeneral(x, 5 + 6, b);
+    writeln('post: ', s1);
+end;

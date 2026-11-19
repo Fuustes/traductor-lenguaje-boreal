@@ -1,0 +1,8 @@
+# Binarios y generados
+*.o
+*.class
+*.exe
+*.dll
+bin/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+procedure addOne (VAR x: integer);
+begin
+	write('el numero siguiente a ', x, ' es ');
+	x := x + 1;
+	writeln(x);
+end;
+
+PROGRAM pruebaEntradaSalida;
+var s : string;
+	x : integer;
+begin
+	read(s);
+	read(x);
+	read(s, x);
+	
+	write;
+	write(s);
+	write(x);
+	addOne(x);
+	
+	writeln;
+	writeln(s);
+	writeln(x);
+end;

@@ -1,0 +1,24 @@
+var y : Integer;
+    z : Integer;
+
+PROGRAM programaPrincipal;
+var x : Integer;
+    t : Integer;
+    b : Boolean;
+
+begin
+    b := 2 > 7;
+    if b
+    then
+        begin
+            x := 7;
+            t := 10;
+        end;
+    else
+        begin
+            x := 4;
+            t := 2;
+        end;
+    y := x + t;
+    z := x + t**3 + x**2 + 2**2;
+end;
